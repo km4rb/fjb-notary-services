@@ -5,17 +5,17 @@
    ============================= */
 
 :root {
-  --clr-primary: #223366;
-  --clr-secondary: #829AB1;
-  --clr-accent: #8B000B; /* buttons/interactive highlights */
-  --clr-accent-2: #A9B0BC; /* subtle borders */
-  --clr-bg: #E6E8EE;
+  --clr-primary: #191970;
+  --clr-secondary: #AAAAAA;
+  --clr-accent: #660066; /* buttons/interactive highlights */
+  --clr-accent-2: #BBBBBB; /* subtle borders */
+  --clr-bg: #f5f5f5;
   --clr-surface: #ffffff;
   --clr-text: #101320;
   --clr-text-muted: #3f475a;
 
   --ff-sans: "Source Sans 3", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  --ff-serif: "Lora", Georgia, serif;
+  --ff-serif: "Libre Baskerville", Baskerville, Georgia, serif;
 
   --radius: 14px;
   --shadow: 0 6px 20px rgba(16, 19, 32, 0.08);
