@@ -1,312 +1,364 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FJB Notary Services - Zephyrhills, FL</title>
-  <meta name="description" content="Mobile Notary Public. Eastern Pasco County, Florida. Evening & weekend availability." />
-  <meta name="theme-color" content="#223366" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Fonts: Libre Baskerville (headers) & Source Sans 3 (body) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>FJB Notary Services | Mobile Notary</title>
+    <meta name="description" content="FJB Notary Services - Mobile notary public. By appointment. General notarizations and notarized copies as permitted by law.">
 
-  <!-- Site Stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to main content</a>
+    <!-- Bootstrap CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-  <header class="site-header">
-    <div class="container nav">
-      <a class="logo" href="#">FJB Notary Services</a>
+    <!-- Your site CSS (after Bootstrap) -->
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
 
-      <!-- Mobile nav toggle (CSS-only hamburger) -->
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
-      <label for="nav-toggle" class="hamburger" aria-hidden="true">
-        <span></span><span></span><span></span>
-      </label>
-<!--
-      <nav class="site-nav" aria-label="Primary">
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#hours">Availability</a></li>
-          <li><a href="#fees">Fees</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      -->
-    </div>
-  </header>
+  <body>
+    <!-- Top bar / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brand sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#">FJB Notary Services</a>
 
-  <main id="main">
-    <!-- HERO -->
-    <section id="hero" class="hero section">
-      <div class="container hero-inner">
-        <h1>FJB Notary Services — Mobile Notary Public </h1>
-	<h2>Experienced, Reliable, Professional, Confidential</h2> 
-        <p class="lead">Notarizations outside of "normal" business hours, at a location convenient to you. </p>
-  <!--      <div class="cta">
-          <a href="#contact" class="btn btn-primary">Book an Appointment</a>
-          <a href="#services" class="btn btn-outline">See Services</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+          aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#fees">Fees</a></li>
+            <li class="nav-item"><a class="nav-link" href="#area">Service Area</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
         </div>
-  -->	
       </div>
-    </section>
-    
-    <section id="landing" class="section">
-          <div class="container">
-	    <header class="section-header">
-	    <h2><center>Website Under Development</center></h2>
+    </nav>
+
+    <!-- Hero -->
+    <header class="py-5 hero">
+      <div class="container">
+        <div class="row align-items-center g-4">
+	  <div class="col-lg-3">
+	  <img class="img-fluid mx-auto d-block rounded-circle" src="assets/img/Crest_Clr_high-894x894_cir.png" alt="FJB Notary Services Crest"/>
 	  </div>
+          <div class="col-lg-5">
+            <h1 class="display-5 fw-bold mb-3 txt-serif">FJB Notary Services</h1>
+            <p class="lead mb-4">
+              Reliable, professional notary services by appointment. I come to you — home, office, hospital, or care facility.</p>
+            <p class="lead mb-4">
+	      Services provided <strong>after</strong> normal business hours -- evenings, weekends, and holidays.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2">
+              <a class="btn btn-outline-light  btn-lg" href="#contact">Contact Us</a>
+  <!--            <a class="btn btn-outline-light btn-lg" href="#services">See Services</a> -->
+            </div>
+
+            <p class="small mt-3 mb-0 opacity-75">
+              Photo ID required • All signers must be physically present • No legal advice provided
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h2 class="h5 mb-3 txt-serif">What to bring</h2>
+                <ul class="mb-0">
+                  <li>Valid government-issued photo ID</li>
+                  <li>Complete <strong>unsigned</strong> document(s) </li>
+                  <li>Any required witnesses (if applicable)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mb-4">
+          <div>
+            <h2 class="h1 mb-1 txt-serif">Services</h2>
+            <p class="text-secondary mb-0">General notary work by appointment.</p>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+	        <img class="img-fluid mx-auto d-block" src="assets/img/Signature 1 320x120.png" /><br/>
+                <h3 class="h5 txt-serif">Estate Planning</h3>
+                <p class="mb-0">Including:</p>
+		<ul><li>Powers of Attorney</li>
+		    <li>Wills & Codicils</li>
+		    <li>Living Wills</li>
+		    <li>Health Care Surrogates</li>
+		    <li>Trusts</li>
+		</ul>    
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+      	        <img class="img-fluid mx-auto d-block" src="assets/img/Signature 2 320x120.png" /><br/>
+                <h3 class="h5 txt-serif">Family Law</h3>
+                <p class="mb-0">Including:</p>
+		<ul><li>Minor Travel/Consent Forms</li>
+		    <li>Divorce Filings & Affidavits</li>
+		    <li>Delegation of parental authorities</li>
+		    <li>Prenuptual/Postnuptual Agreements</li>
+		</ul> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+      	        <img class="img-fluid mx-auto d-block" src="assets/img/Signature 3 320x120.png" /><br/>
+                <h3 class="h5 txt-serif">Deeds & Real Estate</h3>
+                <p class="mb-0">Including:</p>
+		<ul><li>Warranty, Quitclaim, Life Estate Deeds</li>
+		    <li>Assignments of leases/rents</li>
+		    <li>Landlord-Tenant Agreements</li>
+		    <li>Loan modifications</li>
+		</ul> 
+              </div>
+            </div>
+          </div>
+	  
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+    	        <img class="img-fluid mx-auto d-block" src="assets/img/Signature 4 320x120.png" /><br/>
+                <h3 class="h5 txt-serif">Business & Legal</h3>
+                <p class="mb-0">Including:</p>
+		<ul><li>General Affidavits & Sworn Statements</li>
+		    <li>Oaths/Affirmations for depositions</li>
+		    <li>Conset & Release Statements</li>
+		    <li>Asset Purchase / Bills of Sale</li>
+		</ul> 
+              </div>
+            </div>
+          </div>
+	  
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+      	        <img class="img-fluid mx-auto d-block" src="assets/img/Signature 5 320x120.png" /><br/>
+                <h3 class="h5 txt-serif">Personal Transactions</h3>
+                <p class="mb-0">Including:</p>
+		<ul><li>Vehicle/Vessel Bills of Sale</li>
+		    <li>Lien Releases</li>
+		    <li>VIN Verifications for title applications</li>
+		    <li>Insurane beneficiary change forms</li>
+		    <li>Name discrepancy/identity affidavits</li>
+		</ul> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+      	        <img class="img-fluid mx-auto d-block" src="assets/img/Signature 6 320x120.png" /><br/>
+                <h3 class="h5 txt-serif">Other Notarial Duties</h3>
+                <p class="mb-0">As authorized by the State of Florida:</p>
+		<ul><li>General Acknowledgments</li>
+		    <li>Certified Photocopies (when allowed)</li>
+		    <li>Certified inventory of safe-deposit box</li>
+		    <li>Solemnizing Rites of Matrimony</li>
+		</ul> 
+              </div>
+            </div>
+          </div>	  
+<!--
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 txt-serif">Mobile Appointments</h3>
+                <p class="mb-0 text-secondary">Travel to homes, offices, hospitals, and care facilities (by appointment).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+-->
+        <div class="alert alert-light border mt-4 mb-0">
+          <div class="txt-alert text-uppercase text-center h3">Note: I am not an attorney licensed to practice law in the State of Florida.</div>
+	  <div class="row g-3">
+	    <div class="col">
+	      <ul><li>I <strong>may not</strong> give legal advice or accept payment for legal advice</li>
+	          <li>I <strong>may not</strong> select the type or form of notarial certificates for you.</li>
+	          <li>I <strong>may not</strong> advise or answer any questions regarding legal documents.</li>
+	      </ul> 
+            </div>
+	    <div class="col g-3">
+	      <ul><li>I <strong>do not</strong> supply, create, initiate, or complete any legal documents.</li>
+	      <li>I <strong>do not</strong> provide or offer any immigration services or related legal advice.</li>
+              </ul>
+	    </div>
+	  </div>
+	</div>
+      </div>
     </section>
 
-    <!-- SERVICES -->
-    <!--
-    <section id="services" class="section">
+    <!-- Service area -->
+    <section id="about" class="py-5">
       <div class="container">
-        <header class="section-header">
-          <h2>Services Provided</h2>
-          <p>General notary work, Certified copies (where permitted), VIN verifications, and more.</p>
-	  <p><strong>I am not an attorney licensed to practice law in the State of Florida, and I may not give legal advice or accept fees for legal advice.</strong></p>
-	  <p>I do not create nor supply any legal forms, and I will not be able to advise nor answer questions regarding how to complete any forms/documents you may have.</p>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <h3>General Notarizations</h3>
-          </article>
-          <article class="card">
-            <h3>Powers of Attorney</h3>
-	    <ul>
-	      <li>General / Durable</li>
-	      <li>Limited / Special</li>
-	      <li>Real Estate, Vehicle, Boat / Marine</li>
-	      <li>Child Care & Delegation of Parental Authority</li>
-	      <li>Pre-need Designation of Guardianship</li>
-	    </ul>
-          </article>
-          <article class="card">
-            <h3>Deeds & Real Estate</h3>
-            <p>Warranty, Quitclaim, "Lady Bird" deeds; Satisfaction / Release of Mortgage; Assignment of Leases / Rents; Easements and Right-of-way Agreements; Homestead Waivers / Consent of Spouse</p>
-          </article>
-	  <article class="card">
-	    <h3>Trusts</h3>
-	    <p>Trust Agreements / Declarations; Amendments and Restatements; Trustee Acceptance / Resignation / Removal; Trustee's Deed conveying real property; more</p>
-	  </article>
-	  <article class="card">
-	    <h3>Family Law</h3>
-	    <p>Prenuptial Agreements; Temporary Custody Agreements; Name Change Forms; Adoption Consents; Minor Travel Consent; Domestic Violence Injunction Petitions</p>
-	  </article>
-	  <article class="card">
-	    <h3>Business / Corporate Agreements</h3>
-	    <p>Must <strong>not</strong> be a vital or public record where a certified copy can be obtained from the document custodian (like birth/marriage/death certificates, court orders, etc.).  </p>
-	  </article>
-	  <article class="card">
-	    <h3>Financial / Lending Transactions</h3>
-	    <p>Cart text</p>
-	  </article>	  
-	  <article class="card">
-            <h3>Court / Legal Proceedings</h3>
-            <p>Attested photocopies for eligible documents (per state law).</p>
-          </article>
-        </div>
+        <h2 class="h1 mb-3 txt-serif">About Us</h2>
+	<div class="row g-3">
+	<div class="col-md-2">
+	  <img class="img-fluid mx-auto d-block rounded-circle" src="assets/img/NotaryPublicHeadshot.png" alt="Frank J. Backitis, Jr."/>
+	</div>
+	<div class="col-md-10">
+	<p class="mb-3">Frank J. Backitis, Jr., has been an appointed and commissioned Notary Public for the State of Florida since early 2017.  Before moving to Florida, he was a commissioned Notary Public in the State of South Carolina as well.  He is a member of the American Society of Notaries, and actively mentors and assists less experienced Notaries Public. Being a Notary is a matter of honor and pride to Frank, and is the way he feels to best serve the public after having been a Emergency Medical Technican and a Firefighter (both in South Carolina).</p>
+	<p class="mb-3">He recognizes and understands that, as an appointed and commissioned Notary Public, he is a public officer for the state with significant duties and obligations as a result.
+	For him, providing notarial services is not a "side hustle" for earning extra cash.  His day job as a Senior Manager for a major global consulting and professional services organization allows him to provide for his family.  As a result, the fees and charges for providing notarial services are set to just cover expenses, supplies, and ongoing activities.</p>
+	<p class="mb-3">Frank is happily married (for over 33 years), and has a son who will be attending the University of Central Florida in Orlando. In addition to being a Notary Public, he is also an Amateur Radio Operator (callsign KM4RB), focused on the area of emergency communications, and is a trained Skywarn weather spotter.</p>
+        </div>	
       </div>
-    </section>
--->
-    <!-- HOURS -->
-    <!--
-    <section id="hours" class="section alt">
+      </div>
+    </section>  
+	
+    <!-- Fees -->
+    <section id="fees" class="py-5 bg-body-tertiary">
       <div class="container">
-        <header class="section-header">
-          <h2>Hours and Availability</h2>
-        </header>
-        <div class="grid two">
-          <div>
-            <ul class="hours-list">
-              <li><strong>Mon–Fri:</strong> 5:30 pm – 9:00 pm</li>
-              <li><strong>Sat:</strong> 10:00 am – 6:00 pm</li>
-              <li><strong>Sun:</strong> By appointment</li>
-            </ul>
-            <p class="muted">Same‑day appointments often available. Mobile service to homes, offices, hospitals, and public locations.</p>
-          </div>
-          <div>
-            <div class="notice">
-              <p><strong>Service Area:</strong> Enter your city/region here. Travel fees may apply outside core area.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
--->
-    <!-- FEES -->
-    <!--
-    <section id="fees" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h2>Fees and Payments</h2>
-          <p>Transparent pricing. Government‑regulated notarial fees plus any agreed travel or after‑hours fees.</p>
-        </header>
-        <div class="table-wrap">
-          <table class="pricing">
-            <thead>
-              <tr>
-                <th>Service</th>
-                <th>Rate</th>
-                <th>Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Standard Notarization</td>
-                <td>$10 per stamp</td>
-                <td>As permitted by state law</td>
-              </tr>
-              <tr>
-                <td>Travel (Local)</td>
-                <td>From $15</td>
-                <td>Outside core area quoted in advance</td>
-              </tr>
-              <tr>
-                <td>After‑Hours / Rush</td>
-                <td>From $20</td>
-                <td>Applies to late evenings & urgent calls</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="payments">Payment accepted: cash, major cards, and contactless. Receipts available.</p>
-      </div>
-    </section>
--->
-    <!-- FAQ -->
-    <!--
-    <section id="faq" class="section alt">
-      <div class="container">
-        <header class="section-header">
-          <h2>FAQ</h2>
-        </header>
-        <details class="faq">
-          <summary>What ID do I need?</summary>
-          <p>Bring a current government‑issued photo ID such as a driver’s license or passport.</p>
-        </details>
-        <details class="faq">
-          <summary>Can you provide legal advice?</summary>
-          <p>No. A Notary Public is not an attorney and cannot give legal advice.</p>
-        </details>
-        <details class="faq">
-          <summary>Do you offer mobile service?</summary>
-          <p>Yes. I come to you—home, office, hospital, or public location.</p>
-        </details>
-      </div>
-    </section>
--->
-    <!-- TESTIMONIALS -->
-    <!--
-    <section id="testimonials" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h2>Testimonials</h2>
-          <p>What clients are saying.</p>
-        </header>
-        <div class="cards">
-          <blockquote class="card quote">
-            <p>“Prompt, professional, and very helpful. Made everything easy.”</p>
-            <cite>— A.P.</cite>
-          </blockquote>
-          <blockquote class="card quote">
-            <p>“Arrived on time and explained every step clearly. Highly recommend.”</p>
-            <cite>— R.M.</cite>
-          </blockquote>
-        </div>
-      </div>
-    </section>
--->
-    <!-- ABOUT -->
-    <!--
-    <section id="about" class="section alt">
-      <div class="container">
-        <header class="section-header">
-          <h2>About Me</h2>
-        </header>
-        <div class="grid two about">
-          <div class="avatar" aria-hidden="true"></div>
-          <div>
-            <p>I’m a Notary Public serving our community with reliable, flexible service. With a background in documentation and customer care, I focus on clear communication, punctuality, and accuracy.</p>
-            <ul class="ticks">
-              <li>Appointed and Commissioned by the State of Florida</li>
-              <li>E&O insured</li>
-              <li>Mobile & evenings/weekends</li>
-	      <li>Member of American Association of Notaries since 2020
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
--->
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h2>Contact Info</h2>
-          <p>Reach out to schedule or ask a question.</p>
-        </header>
-        <div class="grid two">
-          <div>
-            <ul class="contact-list">
-              <li><strong>Phone:</strong> <a href="tel:+1-813-602-1221">(813) 602‑1221</a></li>
-              <li><strong>Email:</strong> <a href="mailto:fjbnotary@outlook.com">fjbnotary@outlook.com</a></li>
-              <li><strong>Service Area:</strong> Zephyrhills, FL & Nearby</li>
-            </ul>
- <!--           <p class="muted">Include any special instructions such as parking, building access, or preferred meeting spots.</p> -->
-          </div>
-	  <!--
-          <form class="contact-form" action="#" method="post" aria-label="Contact form">
-            <div class="field">
-              <label for="name">Name</label>
-              <input id="name" name="name" type="text" required />
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" required />
-            </div>
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit">Send</button>
-          </form>
-	  -->
-        </div>
-      </div>
-    </section>
-  </main>
+        <h2 class="h1 mb-3 txt-serif">Fees</h2>
+        <p class="text-secondary">
+          Discounts are available for military (active duty, veterans, and families), law enforcement, first responders, and other groups.
+        </p>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> FJB Notary Services. All rights reserved.</p>
- <!--
-      <ul class="footer-nav">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#fees">Fees</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-     -->
-      <!--NOTARY PUBLIC STAMPS LOGO STARTS HERE-->
-<!--      <script type="text/javascript" src="https://www.notarypublicstamps.com/js/logo.large.white.js"></script> -->
-      <script type="text/javascript" src="https://www.notarypublicstamps.com/js/logo.small.white.js"></script>
-      <!--NOTARY PUBLIC STAMPS LOGO ENDS HERE-->
-    </div>
-  </footer>
+        <div class="row g-3">
+          <div class="col-lg-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 txt-serif">Standard notarization</h3>
+                <p class="mb-0">$5 per notarized signature (individuals)</p>
+                <p class="mb-0">$10 per notarized signature (business entities)</p>
+		<p class="mb-0">$5 per oath/affirmation (for depositions)</p>
+                <p class="mb-0">$5 per attested photocopy (plus copying costs)</p>		
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 txt-serif">Other Services</h3>
+                <p class="mb-0">$10 VIN Verification</p>
+                <p class="mb-0">Wedding Ceremonies:</p>
+		<ul><li>$30 (Minimum ceremony)</li>
+		<li>$50<sup>*</sup> (Basic Ceremony)</li>
+		<li>$90<sup>*</sup> (Enhanced Ceremony)</li>
+		</ul>
+		<p class="mb-0 text-secondary"><sup>*</sup>Requires 72 hour advance notice</p>
+	      </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 txt-serif">Travel / convenience fee</h3>
+                <p class="mb-0">Reasonable fees may be added for:</p>
+		<ul><li> Late night and holiday hours</li>
+		<li>Travel more than 5 (driving) miles total</li>
+		<li>Services at health care or correctional facilities</li>
+		<li>Other special circumstances</li>
+		</ul>
+                <p class="mb-0 text-secondary">All fees are negotiable and will be finalized before services are provided.</p>		
+              </div>
+            </div>
+          </div>
+        </div>
+	<br/>
+	<p class="mb-0 h5 text-center">Payment for services expected upon completion unless other arrangements are made in advance.</p>
+	<p class="mb-0 h5 text-center">Payment forms accepted: Cash, Most Credit/Debit Cards.  <strong>No checks accepted.</strong></p>
+      </div>
+    </section>
 
-  <!-- Optional: update year without external JS frameworks -->
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+    <!-- Service area -->
+    <section id="area" class="py-5">
+      <div class="container">
+        <h2 class="h1 mb-3 txt-serif">Service Area</h2>
+<!--        <p class="text-secondary mb-0">
+          Add your counties/cities/neighborhoods served. You can also embed a Google Map later if you want.
+        </p> -->
+	<p class="mb-0">Zephyrhills, FL and surrounding area, including:</p>
+	
+	<ul>
+	  <li>Dade City</li>
+	  <li>Crystal Springs</li>
+	  <li>Richland</li>
+	  <li>San Antonio</li>
+	  <li>Pasadena Hills</li>
+	  </ul>
+	<p class="mb-0">Other areas within a 30 mile radius of Zephyrhills may be possible as well. <strong>Travel charges may apply.</strong></p>  
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h2 class="h1 mb-3 txt-serif">Contact</h2>
+<!--            <p class="text-secondary">Replace the placeholders with your business contact info.</p>
+-->
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div class="mb-2"><strong>Phone:</strong> (813) 602-1221</div>
+                <div class="mb-2"><strong>Email:</strong> fjbnotary@outlook.com</div>
+                <div class="mb-0"><strong>Hours:</strong> By appointment (evenings, weekends, and most holidays)</div>
+              </div>
+            </div>
+<!--
+            <p class="small text-secondary mt-3 mb-0">
+              Tip: If you don’t want a form, you can add a “Call” button and an “Email” button and keep it simple.
+            </p>
+-->
+	    
+          </div>
+          <div class="col-lg-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h5 txt-serif">Before we meet</h3>
+                <ul class="mb-0">
+                  <li>All signers must appear in person physically.</li>
+                  <li>Have your government-issued photo ID ready.</li>
+		  <li>Bring <strong>all</strong> pages of any documents to be signed.</li>
+                  <li>Do not sign until instructed.</li>
+                  <li>Bring/provide any required witnesses (if applicable).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-brand text-white">
+      <div class="container small d-flex flex-wrap gap-2 justify-content-between">
+        <div>© <span id="year"></span> FJB Notary Services</div>
+        <div><a class="link-light" href="#top">Back to top</a></div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
-
-

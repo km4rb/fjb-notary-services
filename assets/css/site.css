@@ -1,0 +1,33 @@
+/* Simple branding layer on top of Bootstrap */
+:root {
+  --brand: #191970;      /* your navy-ish brand color */
+  --brand-2: #a6a7ad;    /* silver-ish */
+  --bs-font-sans-serif: "Source Sans 3",Arial, sans-serif;
+}
+
+.bg-brand {
+  background: var(--brand);
+}
+
+/* Hero styling */
+.hero {
+  background: linear-gradient(0deg, rgba(0,0,0,0.20), rgba(0,0,0,0.20)), var(--brand);
+  color: #fff;
+}
+
+/* Make primary buttons match brand */
+.btn-primary {
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: #2b2b57;
+  --bs-btn-hover-border-color: #2b2b57;
+}
+
+/* Optional: tighten card headings */
+.card h3, .card h2 {
+  letter-spacing: 0.2px;
+}
+
+.txt-serif {font-family: "Libre Baskerville", Baskerville, serif;}
+
+.txt-alert {color: #9a031e; font-weight: bolder;}
